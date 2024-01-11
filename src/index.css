@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* utilities classes  */
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* styling in app  */
+
+.App {
+  background: #e3e6e6;
+  display: flex;
+  flex-direction: column;
+}
+
+.lastdiv {
+  gap: 1rem;
+}
+
+.lastdiv a {
+  color: rgb(255, 255, 255);
+}
+
+.lastdiv p {
+  font-size: 0.8rem;
+}
+
+.lastdiv h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 10px;
+}
